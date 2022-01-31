@@ -110,7 +110,9 @@ city_pred <- array(NA, dim = c(ns, nc, np, 3),
   dimnames = list(si_grid, cities$name, pollutants, c("mean", "low", "high")))
 
 for (i in seq_len(np)){
-  cat(i)
+  
+  # print
+  cat(i, "")
   
   # Choose outcome
   y <- datatab[,sprintf("Diff%s", pollutants[i])]

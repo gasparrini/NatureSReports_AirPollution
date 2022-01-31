@@ -45,7 +45,7 @@ nsim <- 1000
 # Read full dataset
 #-------------------------------
 
-readdata <- readRDS("Data/data_50cities.RDS")
+readdata <- readRDS("data_50cities.RDS")
 
 #-------------------------------
 # Select variables

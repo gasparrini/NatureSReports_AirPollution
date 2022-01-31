@@ -31,7 +31,7 @@ pretty_fixed <- sprintf("%2.1f (%2.1f ; %2.1f)",
 tot_tabSI <- rbind(tabSI, c(id = "Total", name = "", country = "", 
   max(SImax[,2]), pretty_fixed))
 
-write.table(tot_tabSI, file = "Results/TableA2.csv",
+write.table(tot_tabSI, file = "TableA2.csv",
   row.names = F, col.names = T, sep = ",")
 
 #------------------------
@@ -71,7 +71,7 @@ desc_tab <- rbind(desc_tab,
     MaxSI = max(SImax[,2]), prettyMort[nrow(prettyMort),1:np + 1]))
 
 # Export
-write.table(desc_tab, file = "Results/Table1.csv",
+write.table(desc_tab, file = "Table1.csv",
   row.names = F, col.names = T, sep = ",", quote = F)
 
 #------------------------
@@ -90,5 +90,5 @@ tabA4 <- rbind(tabA4,
     ExpectedDeaths = round(sum(tabA4$ExpectedDeaths, na.rm = T))
   ))
 
-write.table(tabA4, file = "Results/TableA4.csv",
+write.table(tabA4, file = "TableA4.csv",
   row.names = F, col.names = T, sep = ",", quote = F)

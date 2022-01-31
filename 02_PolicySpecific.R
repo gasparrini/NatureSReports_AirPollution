@@ -71,7 +71,7 @@ for (p in seq_len(np)){
   # Loop on components
   for (i in seq_len(ncomp)){
     
-    cat("i = ", i, "\n")
+    cat("  i =", i, "\n")
     
     #----- Create variables
     # Select the policy

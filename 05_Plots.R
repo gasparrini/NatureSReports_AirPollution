@@ -5,9 +5,9 @@
 #####################################################
 
 # Results from INLA model (it takes a few minutes)
-load("Results/INLA_Stringency_results.RData")
+#load("Results/INLA_Stringency_results.RData")
 # Results from policy specific models (it takes a few minutes)
-load("Results/INLA_policy_results.RData")
+#load("Results/INLA_policy_results.RData")
 
 #------------------------
 # Figure 1: Time series of AP-change
