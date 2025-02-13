@@ -1,7 +1,8 @@
-# NatureSReports_AirPollution
-Data and R code to support Schneider et al., (2022). Differential impact of government lockdown policies on reducing air pollution levels and related mortality in Europe. Nature's Scientific Reports (DOI: 10.1038/s41598-021-04277-6).
+# Bayesian non‑linear mixed effect model to study the impact of lockdown policies on air pollution and related mortality 
 
-OPEN ACCESS: https://www.nature.com/articles/s41598-021-04277-6
+Data and R code to support: 
+
+Schneider R, Masselot P, Vicedo-Cabrera AM, ..., Gasparrini A. Differential impact of government lockdown policies on reducing air pollution levels and related mortality in Europe. *Scientific Reports*. 2022 Jan 26;12(1):726. (https://doi.org/10.1038/s41598-021-04277-6)
 
 The work was supported by the European Centre for Medium-Range Weather Forecasts (ECMWF) on behalf the European Union (commercial contract Ref. CAMS_95p) and the European Union’s Horizon 2020 Project Exhaustion (Grant ID: 820655).
 
