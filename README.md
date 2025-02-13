@@ -1,4 +1,4 @@
-# Bayesian non‑linear mixed effect model to study the impact of lockdown policies on air pollution and related mortality 
+# Spatio-temporal analysis of the impact of lockdown policies on air pollution and related mortality
 
 Data and R code to support: 
 
